@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kwitter</title>
+    <link rel="shortcut icon" href="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebasejs"></script>
+    <link rel="stylesheet" type="text/css" href="kwitter.css">
+    <script src="kwitter.js"></script>
+</head>
+<body>
+    <div class="loginbox">
+        <img src="logo.png" class="avatar">
+        <h1>Get Started </h1>
+        <form>
+            <p id="firstp">User Name:</p>
+            <input style="width: 260px;;" type="text" name="" id="user_name" placeholder="User Name">
+            <p id="secondp">Password:</p>
+            <input style="width: 260px;;" type="password" name="" id="password" placeholder="Password">
+            <div>
+                <button id="login_button" style="margin-left: 30px; width: 260px; border-radius: 50px; height: 35px; background-color: rgb(255, 45, 45); border-color: black; color: white; font-size: 15px;" onclick="addUser()">Login</button>
+            </div>
+            <br>
+            <div>
+                <a href="#">Forgot your Username?</a>
+            </div>
+            <div>
+                <a href="#">Lost your Password?</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
